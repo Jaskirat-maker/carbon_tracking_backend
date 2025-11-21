@@ -1,0 +1,50 @@
+{
+  "battery": {
+    "avg_weight": 0.02,
+    "ef_recycle": 1.5
+  },
+  "biological": {
+    "avg_weight": 0.15,
+    "ef_recycle": 0.4
+  },
+  "brown-glass": {
+    "avg_weight": 0.25,
+    "ef_recycle": 0.3
+  },
+  "cardboard": {
+    "avg_weight": 0.03,
+    "ef_recycle": 0.7
+  },
+  "clothes": {
+    "avg_weight": 0.5,
+    "ef_recycle": 1.2
+  },
+  "green-glass": {
+    "avg_weight": 0.25,
+    "ef_recycle": 0.3
+  },
+  "metal": {
+    "avg_weight": 0.1,
+    "ef_recycle": 5.5
+  },
+  "paper": {
+    "avg_weight": 0.01,
+    "ef_recycle": 0.9
+  },
+  "plastic": {
+    "avg_weight": 0.05,
+    "ef_recycle": 2.1
+  },
+  "shoes": {
+    "avg_weight": 0.4,
+    "ef_recycle": 1.0
+  },
+  "trash": {
+    "avg_weight": 0.2,
+    "ef_recycle": 0.1
+  },
+  "white-glass": {
+    "avg_weight": 0.25,
+    "ef_recycle": 0.3
+  }
+}
