@@ -40,7 +40,11 @@ router.post('/scan', async (req, res) => {
     // Update or create user
     let user = await User.findOne({ userId });
     if (!user) {
-      user = new User({ userId, totalCo2Saved: 0 });
+      user = new User({ 
+        userId, 
+        name: req.body.name || '',
+        totalCo2Saved: 0 
+      });
     }
     user.totalCo2Saved += co2Saved;
     await user.save();

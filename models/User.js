@@ -6,6 +6,10 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
+  name: {
+    type: String,
+    default: ''
+  },
   totalCo2Saved: {
     type: Number,
     default: 0
